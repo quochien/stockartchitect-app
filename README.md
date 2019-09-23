@@ -1,0 +1,1 @@
+# stockartchitect-app
