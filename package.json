@@ -1,0 +1,69 @@
+{
+  "name": "StockArchitect",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "apisauce": "^1.0.3",
+    "color": "^3.1.2",
+    "dotenv-parse-variables": "^0.2.2",
+    "react": "16.8.6",
+    "react-native": "^0.60.5",
+    "react-native-animatable": "^1.3.2",
+    "react-native-config": "^0.11.7",
+    "react-native-fast-image": "^7.0.2",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-localization": "^2.1.6",
+    "react-native-paper": "^2.16.0",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.11.1",
+    "react-navigation-redux-helpers": "^3.0.2",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.5",
+    "reduxsauce": "^1.1.0",
+    "reselect": "^4.0.0",
+    "rxjs": "^6.5.2",
+    "seamless-immutable": "^7.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.2",
+    "@babel/runtime": "7.6.2",
+    "@react-native-community/eslint-config": "0.0.3",
+    "@types/react": "^16.9.2",
+    "@types/jest": "^24.0.18",
+    "@types/react-native": "^0.60.14",
+    "@types/react-test-renderer": "^16.9.0",
+    "typescript": "^3.6.3",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "babel-jest": "24.9.0",
+    "eslint": "6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
