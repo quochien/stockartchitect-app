@@ -1,24 +1,30 @@
 {
-  "name": "StockArchitect",
+  "name": "StockArchitectApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint .",
-    "lint:fix": "eslint './src/**/*.{ts,tsx}'"
+    "lint": "eslint ."
   },
   "dependencies": {
+    "@shoutem/animation": "^0.12.3",
+    "@shoutem/theme": "^0.11.3",
     "apisauce": "^1.0.3",
     "color": "^3.1.2",
     "dotenv-parse-variables": "^0.2.2",
-    "react": "16.8.6",
-    "react-native": "^0.60.5",
+    "google-libphonenumber": "^3.2.5",
+    "module-alias": "^2.2.2",
+    "react": "16.9.0",
+    "react-native": "0.61.1",
     "react-native-animatable": "^1.3.2",
     "react-native-config": "^0.11.7",
     "react-native-fast-image": "^7.0.2",
     "react-native-gesture-handler": "^1.3.0",
     "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-linear-gradient": "react-native-community/react-native-linear-gradient",
     "react-native-localization": "^2.1.6",
     "react-native-paper": "^2.16.0",
     "react-native-reanimated": "^1.2.0",
@@ -38,32 +44,35 @@
     "@babel/core": "7.6.2",
     "@babel/runtime": "7.6.2",
     "@react-native-community/eslint-config": "0.0.3",
-    "@types/react": "^16.9.2",
     "@types/jest": "^24.0.18",
+    "@types/lodash": "^4.14.139",
+    "@types/node": "^12.7.8",
+    "@types/react": "^16.9.2",
     "@types/react-native": "^0.60.14",
     "@types/react-test-renderer": "^16.9.0",
-    "typescript": "^3.6.3",
+    "@types/seamless-immutable": "^7.1.11",
     "@typescript-eslint/eslint-plugin": "^2.3.1",
     "@typescript-eslint/parser": "^2.3.1",
     "babel-jest": "24.9.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "eslint": "6.4.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-config-react": "^1.1.7",
+    "eslint-import-resolver-babel-module": "^5.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-module-resolver": "^0.15.0",
     "eslint-plugin-prettier": "^3.1.1",
     "jest": "24.9.0",
     "metro-react-native-babel-preset": "0.54.1",
     "prettier": "^1.18.2",
-    "react-test-renderer": "16.8.6"
+    "react-test-renderer": "16.8.6",
+    "reactotron-react-native": "^4.0.2",
+    "reactotron-redux": "^3.1.2",
+    "reactotron-redux-saga": "^4.2.2",
+    "typescript": "^3.6.3"
   },
   "jest": {
-    "preset": "react-native",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
+    "preset": "react-native"
   }
 }

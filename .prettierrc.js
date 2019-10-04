@@ -2,8 +2,8 @@ module.exports = {
   eslintIntegration: true,
   useTabs: false,
   jsxSingleQuote: false,
-  arrowParens: "avoid"
-  bracketSpacing: false,
+  arrowParens: "always"
+  bracketSpacing: true,
   jsxBracketSameLine: true,
   singleQuote: true,
   semi:  true,
